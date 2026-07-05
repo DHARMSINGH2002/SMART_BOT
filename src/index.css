@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, system-ui;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  background: linear-gradient(180deg, #0f1724 0%, #071023 100%);
+  color: #e6eef8;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button{ cursor: pointer; }
